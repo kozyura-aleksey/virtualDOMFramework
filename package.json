@@ -1,0 +1,23 @@
+{
+  "name": "virtualdomframework",
+  "version": "1.0.0",
+  "description": "Framework that was created on the concept of react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Kozyura Aleksey",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
