@@ -11,6 +11,10 @@ const tree1 = {
     type: 'h1',
     props: {},
     children: ['Hello']
+  }, {
+    type: 'h1',
+    props: {},
+    children: ['Hello']
   }],
 };
 
@@ -18,6 +22,10 @@ const tree2 = {
   type: 'div',
   props: {},
   children: [{
+    type: 'h1',
+    props: {},
+    children: ['Goodbuy']
+  },{
     type: 'h1',
     props: {},
     children: ['Goodbuy']
